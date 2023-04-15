@@ -137,17 +137,15 @@ body{
 }
 
 .location-not-found h1{
-     width: 273px;
+    font-size: 20px;
+    color: #6b6b6b;
+    margin-block-end: 15px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(200,129,244,1) 35%, rgba(0,212,255,1) 100%);
-    color: white;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 13px;
-    height: 48px;
-    font-size: 23px;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3px;
+}
 }
 .location-not-found h1 span{
     margin: 8px;
@@ -167,17 +165,17 @@ position: absolute;
     flex-direction: column;
 }
 .navbar h1{
-    width: 251px;
+      width: 273px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(200,129,244,1) 35%, rgba(0,212,255,1) 100%);
     color: white;
     margin: auto;
-    margin-top: -21px;
+    margin-top: 20px;
     border-radius: 13px;
-    height: 45px;
-    font-size: 20px;
+    height: 48px;
+    font-size: 23px;
 }
 
 nav {
