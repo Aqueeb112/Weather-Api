@@ -137,14 +137,17 @@ body{
 }
 
 .location-not-found h1{
-    font-size: 20px;
-    color: #6b6b6b;
-    margin-block-end: 15px;
+     width: 273px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    padding-top: 3px;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(200,129,244,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 13px;
+    height: 48px;
+    font-size: 23px;
 }
 .location-not-found h1 span{
     margin: 8px;
