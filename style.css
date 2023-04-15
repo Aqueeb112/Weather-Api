@@ -165,16 +165,16 @@ position: absolute;
     flex-direction: column;
 }
 .navbar h1{
-      width: 273px;
+    width: 247px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(200,129,244,1) 35%, rgba(0,212,255,1) 100%);
     color: white;
     margin: auto;
-    margin-top: 20px;
+    margin-top: -21px;
     border-radius: 13px;
-    height: 48px;
+    height: 38px;
     font-size: 23px;
 }
 
